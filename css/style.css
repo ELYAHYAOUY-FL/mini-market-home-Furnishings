@@ -573,6 +573,13 @@ header .fa-bars{
     .heading{
         font-size: 3rem;
     }
+     .footer .box-container{
+        /* display: flex;
+        flex-wrap: wrap; */
+        gap:1.5rem;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
 @media (max-width:334px){
